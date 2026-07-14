@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 219, 213);
+}
+
+.container{
+    display:flex;
+    justify-content:flex-start; /* căn giữa toàn bộ */
+    gap:150px;               /* khoảng cách giữa 2 cột */
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.tin{
+    width:300px;
+}
+
+.giua{
+    width:600px;
+    margin-top: 40px; /* dịch cột giữa xuống hoặc lên */
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+a img{
+    display:block;
+    margin-bottom:10px;
+}
+
+a:hover{
+    color:#0a9b8d;
+}
+.phai {
+    width: 300px;
+}
+.phai a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;   
+    margin-top: 40px; 
+}
+.phai p {
+    margin: 0;
+    flex: 1;
+}
+.phai img {
+    width: 150px;
+}
+.tron {
+    border-radius: 100px;
+}
